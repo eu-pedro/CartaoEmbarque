@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="jquery.js" ></script> <!-- Load jQuery first -->
+    <script src="tilt.js"></script> <!-- Load Tilt.js library -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Cartão de Embarque</title>
+  </head>
+  <body>
+    <main>
+      <span data-tilt>
+        <section class="container">
+          <h1>Cartão de Embarque</h1>
+  
+          <div class="card">
+            
+            <div class="card-date">
+              <div class="card-left">
+                <span class="subtitle">Voo</span>
+                <p class="title">RS995</p>
+  
+                <p class="subtitle">São Paulo, Brasil</p>
+                <p class="bigtitle">GRU</p>
+                <p class="time-title">17:00</p>
+              </div>
+              <div class="card-right">
+                <span class="subtitle">Data</span>
+                <p class="title">23/05/2023</p>
+                <p class="subtitle">São Francisco, EUA</p>
+                <p class="bigtitle">SFO</p>
+                <p class="time-title">04:48<span>+1</span></p>
+              </div>
+            </div>
+  
+            <div class="card-name">
+              <div class="passenger">
+                <p class="subtitle">Passageiro</p>
+                <p class="title">Pedro Henrique</p>
+              </div>
+              <div class="seat">
+                <p class="subtitle">Assento</p>
+                <p class="title">28A</p>
+              </div>
+            </div>
+  
+            <div class="card-qrcode">
+              <div class="locale">
+                <p class="subtitle">Embarque</p>
+                <p class="hour">16:15</p>
+  
+                <p class="subtitle">Terminal</p>
+                <p class="title">2</p>
+  
+                <p class="subtitle">Portão</p>
+                <p class="title">15</p>
+              </div>
+  
+              <div class="qrcode">
+                <img src="image/QR Code.jpg" alt="imagem do qrcode" />
+                <p class="subtitle">Grupo de embarque: 3</p>
+              </div>
+            </div>
+  
+            <div class="card-footer">
+              <p><span class="title">Atenção:</span> o portão fecha 16:45</p>
+            </div>
+          </div>
+          <footer>
+            <p>
+              Qualquer problema procure o balcão de<br> atendimento da sua companhia
+              aérea
+            </p>
+          </footer>
+        </section>
+      </span>
+    </main>
+  </body>
+</html>
