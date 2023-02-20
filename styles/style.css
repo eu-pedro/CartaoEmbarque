@@ -115,9 +115,15 @@ html {
 
 }
 
+.card-middle {
+  margin: 100px 0 0 20px;
+}
+
 .card-date .card-right {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-left: auto;
 }
 
