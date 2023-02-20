@@ -2,6 +2,12 @@
 
 Projeto criado com intuito de replicar um vouncher de embarque de viajens
 
+
+## HOME 
+
+<img src="./assets/home.png">
+
+
 ## 🚀 Começando
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
