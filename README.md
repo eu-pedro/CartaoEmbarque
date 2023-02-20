@@ -5,7 +5,7 @@ Projeto criado com intuito de replicar um vouncher de embarque de viajens
 
 ## HOME 
 
-<img src="./assets/home.png">
+<img src="./assets/home-new.png">
 
 
 ## 🚀 Começando
